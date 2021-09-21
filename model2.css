@@ -1,0 +1,31 @@
+body {
+    flex-wrap: wrap;
+}
+
+nav {
+    background-color: rgb(150, 153, 156);
+    padding: 10px;
+}
+
+.one h2,
+.two h2,
+.three h2 {
+    text-align: center;
+}
+
+.one,
+.two,
+.three {
+    background-color: rgb(150, 153, 156);
+    margin: 10px;
+    width: 500px;
+    height: 300px;
+    display: inline-block;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main h2 {
+    text-align: center;
+}
